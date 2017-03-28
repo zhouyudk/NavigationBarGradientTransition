@@ -1,0 +1,2 @@
+# NavigationBarGradientTransition
+navigationBar在push,pop,侧滑返回过程中背景色和透明度渐变过度
