@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jRd-xh-l8g">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--A-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ZYAViewController" customModule="NavigationBarGradientTransition" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rp6-sb-bly">
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="EEa-o2-kNv" kind="push" id="FC0-YA-yn1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84705882349999995" green="0.53725490200000003" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Rp6-sb-bly" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aP5-vP-V82"/>
+                            <constraint firstItem="Rp6-sb-bly" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pwA-zO-eSA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="A" id="rwa-U5-OMU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="823" y="793"/>
+        </scene>
+        <!--B-->
+        <scene sceneID="a3R-Q7-HYY">
+            <objects>
+                <viewController id="EEa-o2-kNv" customClass="ZYBViewController" customModule="NavigationBarGradientTransition" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dnz-si-KsD"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZYU-4g-YrS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W56-63-AhU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Svk-Zr-XVt">
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="NVW-fb-7Xo" kind="push" id="ir5-vN-cw7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.45098039220000002" green="0.73333333329999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Svk-Zr-XVt" firstAttribute="centerX" secondItem="W56-63-AhU" secondAttribute="centerX" id="7s9-jQ-GLo"/>
+                            <constraint firstItem="Svk-Zr-XVt" firstAttribute="centerY" secondItem="W56-63-AhU" secondAttribute="centerY" id="E3A-wl-33D"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="B" id="7Rv-Uo-qQz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lQU-fA-73y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1599" y="790"/>
+        </scene>
+        <!--C-->
+        <scene sceneID="nop-o5-jG1">
+            <objects>
+                <viewController id="NVW-fb-7Xo" customClass="ZYCViewController" customModule="NavigationBarGradientTransition" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ndp-vJ-h8V"/>
+                        <viewControllerLayoutGuide type="bottom" id="N4e-E6-qHz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ee3-JP-r7x">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.87843137250000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="C" id="tRx-FG-bEM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qRL-0y-Nqc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2374" y="790"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qPL-ce-Vq3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jRd-xh-l8g" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GhQ-gM-Z6j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="okV-8Z-lyi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J8C-xq-uqc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="792.95352323838085"/>
+        </scene>
+    </scenes>
+</document>
