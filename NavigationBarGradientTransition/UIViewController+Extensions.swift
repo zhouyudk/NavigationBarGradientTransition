@@ -38,7 +38,15 @@ extension UIViewController {
             objc_setAssociatedObject(self, &AssociatedKeys.navBarBgAlpha, alpha, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
             
             let barBackgroundView = self.navigationController?.navigationBar.subviews[0]
-            barBackgroundView?.alpha = self.navBarBgAlpha
+            if #available(iOS 11,*) {
+                if let subViews = barBackgroundView?.subviews {
+                    for v in subViews {
+                        v.alpha = self.navBarBgAlpha
+                    }
+                }
+            }else{
+                barBackgroundView?.alpha = self.navBarBgAlpha
+            }
         }
     }
     
